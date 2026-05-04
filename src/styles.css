@@ -802,30 +802,30 @@ code {
 }
 
 [data-theme='claude-official'] {
-  --theme-bg: #0a0e1a;
+  --theme-bg: #000510;
   /* Sidebar gets a deeper shade than the main bg so the column
      reads as its own surface. Iter 014 fix: previously the sidebar
      and bg were nearly identical (#0d1220 vs #0a0e1a) which made
      the sidebar look transparent against the dashboard. */
-  --theme-sidebar: #060914;
+  --theme-sidebar: #000717;
   --theme-panel: #0d1220;
   --theme-card: #11182a;
   --theme-card2: #151d32;
   --theme-border: #24304a;
   --theme-border-subtle: #1b2740;
-  --theme-text: #e6eaf2;
-  --theme-muted: #9aa5bd;
+  --theme-text: #f9fafb;
+  --theme-muted: #a3aabf;
   --theme-shadow-1: 0 1px 2px rgba(0, 0, 0, 0.55);
   --theme-shadow-2: 0 6px 16px rgba(0, 0, 0, 0.52);
   --theme-shadow-3: 0 16px 36px rgba(0, 0, 0, 0.62);
   --theme-glass: rgba(10, 14, 26, 0.88);
-  --theme-focus: #818cf8;
+  --theme-focus: #4054b2;
   --theme-accent: #6366f1;
-  --theme-accent-secondary: #818cf8;
+  --theme-accent-secondary: #4054b2;
   --theme-accent-subtle: rgba(99, 102, 241, 0.14);
   --theme-accent-border: rgba(99, 102, 241, 0.3);
-  --theme-active: #60a5fa;
-  --theme-link: #818cf8;
+  --theme-active: #4169e1;
+  --theme-link: #4054b2;
   --theme-success: #22c55e;
   --theme-warning: #f59e0b;
   --theme-danger: #ef4444;
@@ -834,20 +834,20 @@ code {
   --theme-header-border: #24304a;
   --chat-user-bg: #1a2340;
   --chat-user-border: #3a4b78;
-  --chat-user-foreground: #e6eaf2;
+  --chat-user-foreground: #f9fafb;
   --chat-assistant-bg: #11182a;
   --chat-assistant-border: #1b2740;
-  --chat-assistant-foreground: #e6eaf2;
+  --chat-assistant-foreground: #f9fafb;
   --composer-bg: #0f1728;
   --composer-border: #2a3550;
   --composer-placeholder: #7d88a2;
   --tool-card-bg: #0f1728;
   --tool-card-border: #2a3550;
-  --tool-card-title: #e6eaf2;
+  --tool-card-title: #f9fafb;
   --tool-card-muted: #9aa5bd;
   --code-bg: #0f1728;
   --code-border: #2a3550;
-  --code-foreground: #e6eaf2;
+  --code-foreground: #f9fafb;
   --theme-input: #0f1728;
 }
 
